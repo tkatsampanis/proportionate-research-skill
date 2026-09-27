@@ -1,0 +1,119 @@
+# Example Research Scenarios — How Proportionate-Research Applies
+
+## Scenario 1: Simple Factual Question (Lightweight Tier)
+
+**User asks:** "What year was the iPhone 15 released?"
+
+### Applied Framework
+
+| Step | Action | Why |
+|------|--------|-----|
+| **Understand** | Identify exact question: release year of iPhone 15 | Clear scope, low consequence if wrong |
+| **Classify** | Required: iPhone 15 release year; Contextual/Optional: iPhone 14/16 years; Blocked: none | Prioritize required only |
+| **Plan** | Check conversation context / established knowledge (iPhones have annual release cycles) | Already know pattern, minimal retrieval needed |
+| **Retrieve** | Targeted search: "iPhone 15 release date" — one query, top result should suffice | Cheapest reliable method; metadata (Apple announcements) sufficient |
+| **Evaluate** | Source: Apple press release or major tech news; check temporal fit (current year relevance) | One authoritative source establishes the claim |
+| **Update** | Mark "iPhone 15 release year" as Established | No open required questions remain |
+| **Verify** | Light verification — one source suffices for this low-consequence fact | Consequence low, verification budget minimal |
+| **Stop** | *"Do I have enough reliable evidence?"* → YES | Research complete |
+
+### Expected Deliverable
+"The iPhone 15 was released in September 2023."
+
+---
+
+## Scenario 2: Analytical Question (Analytical Tier)
+
+**User asks:** "Compare the battery life claims of iPhone 15 Pro vs. Samsung Galaxy S24 Ultra."
+
+### Applied Framework
+
+| Step | Action | Why |
+|------|--------|-----|
+| **Understand** | Identify comparison dimensions: battery life claims, real-world usage, video playback time | Multiple claims need establishment |
+| **Classify** | Required: battery capacity, manufacturer-stated talk/video/streaming hours; Contextual: charging speed, weight impact; Optional: color options, storage variants | Prioritize required claims |
+| **Plan** | Determine what's known vs. unknown from conversation; identify that both phones' specs need retrieval | Need evidence for each claim |
+| **Retrieve** | Two targeted searches: "iPhone 15 Pro battery life hours" + "Galaxy S24 Ultra battery life hours"; extract relevant sections from spec pages, not full documents | Retrieve only what's needed for each claim |
+| **Evaluate** | Check authority (official specs), relevance (battery life as stated by manufacturer), directness (does spec directly state hours?), temporal fit (current models) | Establish credibility of each claim |
+| **Update** | Record: iPhone 15 Pro — up to 23 hrs video playback; Galaxy S24 Ultra — up to 25 hrs video playback. Note any contradictions if real-world tests differ. | Mark claims as Established with notes |
+| **Verify** | Moderate verification — check multiple sources (GSMArena, AnandTech) for consistency | Consequence moderate (comparison accuracy), use independent confirmation |
+| **Stop** | *"Do I have enough reliable evidence?"* → YES, both manufacturer claims established | Research complete; deliver comparison with source citations |
+
+### Expected Deliverable
+"iPhone 15 Pro: up to 23 hours video playback. Galaxy S24 Ultra: up to 25 hours video playback. Manufacturer claims may vary in real-world usage."
+
+---
+
+## Scenario 3: Comprehensive Question (Comprehensive Tier)
+
+**User asks:** "Provide a comprehensive review of major open-source large language models released in 2024."
+
+### Applied Framework
+
+| Step | Action | Why |
+|------|--------|-----|
+| **Understand** | Identify scope: major LLM releases, 2024 only, "comprehensive review" = cover key approaches, not every model | User requested comprehensive but must define boundaries |
+| **Classify** | Required: model names, developer/organization, release date, key differentiators, known limitations; Contextual: minor variants, regional releases; Optional: every fine-tuned version, every benchmark score | Massive optional space — must explicitly limit |
+| **Plan** | Define coverage criteria upfront: top 10-15 most significant 2024 LLMs by impact/usage; track covered categories and remaining gaps | Prevent uncontrolled browsing; define "exhaustive" scope |
+| **Retrieve** | Systematic search across dimensions: official announcements, major tech publications, AI research databases; relevant sections from each paper/blog; dataset subsets not full papers | Broad but targeted retrieval across defined dimensions |
+| **Evaluate** | For each model: authority (developer reputation), relevance (2024 release), directness (does source describe key features?), independence (multiple sources for same claim), methodology (are benchmarks standardized?), completeness (does source cover claimed capabilities?) | Rigorous evidence evaluation for each required claim |
+| **Update** | Maintain research state with: objective, required questions/claims, known info, evidence per claim, open questions, contradictions, assumptions, blocked questions, next action, stopping condition | Persistent state across multiple retrieval sessions |
+| **Verify** | Strong verification — independent confirmation from multiple sources for each major claim; version/date checks for rapidly changing field | Consequence high (comprehensive review accuracy), source quality critical |
+| **Stop** | *"Do I have enough reliable evidence?"* → After covering defined scope, major categories investigated, no important required evidence gap remains | Research complete per defined boundaries |
+
+### Expected Deliverable
+A structured review covering ~12 major 2024 LLMs with: release date, developer, parameter count, key innovation, primary use case, known limitations, and source citations for each claim.
+
+---
+
+## "Condensed Mode" — 15 Core Sections
+
+For users who want proportionate research guidance without the full 26-section detail, here is a distilled essential version:
+
+### Section 1: Purpose & Operating Loop
+> Obtain sufficient reliable evidence using minimum necessary work. Loop: UNDERSTAND → CLASSIFY → PLAN → RETRIEVE → EVALUATE → UPDATE → VERIFY → STOP.
+
+### Section 2: Understand the Request
+> What is the user asking? What deliverable do they need? How consequential would an incorrect answer be?
+
+### Section 3: Classify Required Information
+> Required / Contextual / Optional / Blocked — prioritize required claims only.
+
+### Section 4: Research Depth
+> Lightweight / Analytical / Comprehensive — match effort to task.
+
+### Section 5: Proportionate Research Budget
+> Consider complexity, uncertainty, consequence, freshness, requested depth before retrieving.
+
+### Section 6: Source & Evidence Quality
+> Prefer primary/authoritative evidence; evaluate authority, relevance, directness, temporal fit, independence, methodology, completeness.
+
+### Section 7: Escalate Gradually
+> Level 0 (existing info) → Level 1 (focused search) → Level 2 (targeted source) → Level 3 (deep analysis) → Level 4 (multi-source reconciliation). Stop at lowest level providing sufficient evidence.
+
+### Section 8: Web Research
+> Start focused; broaden only when results insufficient, sources conflict, subject difficult to locate, or broader coverage requested. Each search needs identifiable purpose.
+
+### Section 9: Contradictions
+> Identify exact disagreement; check dates/versions/definitions/populations/measurement methods/independence; determine which evidence applies; investigate if materially affecting answer.
+
+### Section 10: Stopping Rule
+> After each meaningful retrieval: *"Do I now have enough reliable evidence to answer the user's actual question without guessing?"* If NO → identify missing evidence, retrieve only that, reassess. YES → STOP.
+
+### Section 11: Novelty & Saturation Check
+> Will additional research likely produce new required claims, new evidence, meaningful contradictions, better source quality, or unexplored coverage? If only duplicate/derivative information, stop. Track source-overlap heuristic (70–80%) as signal not rule.
+
+### Section 12: Common Pitfalls
+> Don't treat "found in source" as verified; don't assume repeated claims = independent confirmation; don't research out of habit; don't average conflicting values; don't silently fill gaps with assumptions; don't stop solely due to source overlap if required claims unresolved; don't search same query repeatedly without new purpose; don't follow links without information need; don't treat search ranking as evidence; don't present uncertain claims as established facts; don't claim verification that didn't occur; don't sacrifice correctness for minimal budget.
+
+### Section 13: Evidence States
+> Established / Corroborated / Supported but uncertain / Indirectly supported / Contradicted / Unverified
+
+### Section 14: Output Discipline
+> Provide answer, important evidence, relevant assumptions, meaningful uncertainty, citations when appropriate. Never imply research/verification that did not occur.
+
+### Section 15: Core Principle
+> Accuracy beats minimality; unnecessary work is the thing to minimize.
+
+---
+*This condensed version covers the essential proportionate research framework in ~15 sections versus the full 26-section skill. All core concepts, stopping rules, and evidence evaluation principles are preserved.*

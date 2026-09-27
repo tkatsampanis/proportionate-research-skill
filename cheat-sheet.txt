@@ -1,0 +1,129 @@
+# Proportionate Research — Quick-Start Cheat Sheet
+
+## The Operating Loop
+**UNDERSTAND → CLASSIFY → PLAN → RETRIEVE → EVALUATE → UPDATE → VERIFY → STOP**
+
+---
+
+## Key Questions at Each Step
+
+### UNDERSTAND
+- What exactly is the user asking? What deliverable do they need?
+- What claims must be established to answer correctly?
+- How consequential would an incorrect answer be?
+
+### CLASSIFY
+- **Required**: Necessary for correct answer
+- **Contextual**: Useful background, not necessary
+- **Optional**: Interesting but unnecessary
+- **Blocked**: Can't establish without user input
+
+### PLAN
+- What's already known from conversation/files?
+- What's missing? What evidence is needed?
+- Record: objective, required questions/claims, known info, evidence, open questions, contradictions, assumptions, blocked questions, next action, stopping condition
+
+### RETRIEVE
+- Start focused; broaden only when necessary
+- Each search must have an identifiable purpose:
+  - find missing evidence
+  - resolve contradiction  
+  - improve freshness
+  - verify consequential claim
+  - improve requested coverage
+- Prefer cheapest reliable method (metadata > full files, relevant sections > entire documents)
+
+### EVALUATE
+For every important claim: Authority, Relevance, Directness, Temporal fit, Independence, Methodology, Completeness
+
+### UPDATE
+- Record what was established
+- Mark answered questions
+- Note meaningful contradictions
+- Identify remaining open required questions
+- Choose next action based on those questions
+
+### VERIFY
+- Match verification effort to claim importance, uncertainty, source quality, contradiction, freshness, requested depth, consequence of being wrong
+- Possible methods: authoritative sources, independent confirmation, original documents, version/date checks, calculation checks, reproducing results
+
+### STOP
+> **Do I now have enough reliable evidence to answer the user's actual question without guessing?**
+
+**YES** → Stop and provide answer.
+
+**NO** → Identify exact unresolved required claim, determine what evidence is missing, retrieve only that information, reassess.
+
+---
+
+## Stopping Conditions (Research Complete)
+- All required claims sufficiently established
+- Important contradictions resolved or explicitly reported
+- Requested scope satisfied
+- Assumptions clearly identified
+- No essential evidence gap remains
+
+**Do not continue researching merely because optional questions remain.**
+
+---
+
+## Research Depth Tiers
+
+| Tier | When to Use | What to Retrieve |
+|------|------------|------------------|
+| **Lightweight** | Simple factual questions, dates, definitions, current versions, authors, small number of sources | Focused retrieval, one authoritative source may suffice |
+| **Analytical** | Comparisons, explanations, paper analysis, technical investigations, consistency checks, methodology questions | Evidence needed for relevant claims, analyze it |
+| **Comprehensive** | Literature reviews, exhaustive investigations, broad technical reviews, "find all major approaches," systematic comparisons | Broader retrieval, explicit coverage criteria |
+
+---
+
+## Primary Stopping Signals
+
+1. **Novelty check**: Will additional research likely produce:
+   - New required claims? ✗ STOP
+   - New evidence for unresolved claim? ✓ continue
+   - Meaningful contradictory evidence? ✓ investigate
+   - Materially better source quality? ✓ continue
+   - Coverage of important unexplored area? ✓ continue
+
+2. **Source overlap heuristic**: 70–80% overlap across successive rounds is a signal, NOT an automatic stop rule.
+
+3. **Primary rule**: *Are additional searches still producing materially new evidence relevant to unresolved required claims?*
+
+---
+
+## Common Pitfalls (What NOT to Do)
+
+- ❌ Treating "found in a source" as automatically "verified"
+- ❌ Assuming multiple sources repeating the same claim provide independent confirmation
+- ❌ Continuing research out of habit or momentum, not because new evidence is needed
+- ❌ Averaging conflicting technical values to produce a single number
+- ❌ Silently filling evidence gaps with assumptions
+- ❌ Stopping solely because of high source overlap (70–80%) if required claims remain unresolved
+- ❌ Searching the same question repeatedly without a new purpose
+- ❌ Following links merely because they exist
+- ❌ Treating search-engine ranking as evidence of source quality
+- ❌ Presenting uncertain/indirect/unverified claims using language for established facts
+- ❌ Claiming something was verified if the verification did not actually occur
+- ❌ Sacrificing correctness to satisfy a minimal research budget
+- ❌ Deleting or modifying user-created files encountered during research
+
+---
+
+## Quick Reference: Evidence States
+
+| State | Meaning |
+|-------|---------|
+| **Established** | Strong evidence directly supports the claim |
+| **Corroborated** | Supported by multiple sufficiently independent credible sources |
+| **Supported but uncertain** | Evidence supports, but meaningful uncertainty remains |
+| **Indirectly supported** | Evidence strongly suggests but does not directly establish |
+| **Contradicted** | Credible evidence conflicts with the claim |
+| **Unverified** | Insufficient evidence has been found |
+
+---
+
+## Core Principle
+> **Obtain sufficient reliable evidence to answer the user's actual question correctly, using the minimum necessary work.**
+
+Accuracy beats minimality; unnecessary work is the thing to minimize.

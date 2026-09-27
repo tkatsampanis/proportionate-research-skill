@@ -1,0 +1,100 @@
+# Proportionate Research — Operating Loop Visual
+
+A simple ASCII diagram of the research operating loop for quick reference and documentation.
+
+```
+┌─────────────┐     ┌───────────────┐     ┌──────────────┐
+│  UNDERSTAND │ →   │   CLASSIFY    │ →   │    PLAN      │
+│             │     │               │     │              │
+│ • What is   │     • Required/     │       • What's     │
+│   the user  │     • Contextual    │          already   │
+│   asking?   │     • Optional      │          known     │
+│ • What      │     • Blocked       │        • What's    │
+│   claims    │                     │          missing   │
+│   must be   │                     │        • What      │
+│   established│                    │          evidence  │
+└─────────────┘     └───────────────┘     └──────────────┘
+       ▲                 │                    │
+       │                 ▼                    │
+       │          ┌───────────────┐           │
+       │          │   RETRIEVE    │           │
+       │          │               │           │
+       │          • Start focused│            │
+       │          • Broaden only │            │
+       │          • When needed  │            │
+       │          • Each search  │            │
+       │          • Identifiable │            │
+       │          • purpose      │            │
+       ▼                 └───────────────▲    │
+┌─────────────┐                    │          │
+│  EVALUATE   │                    │          │
+│             │                    │          │
+│ • For every │                    |          │
+│   important │                    │          │
+│   claim:    │                    │          │
+│   • Authority│                   │          │
+│   • Relevance│                   │          │
+│   • Directness│                  │          │
+│   • Temporal fit│                │          │
+│   • Independence│                │          │
+│   • Methodology│                 │          │
+│   • Completeness│                │          │
+└─────────────┘                    │          ▲
+       ▼                           │          │
+       │         ┌───────────────┐ │          │
+       │         │   UPDATE      │ │          │
+       │         │               │ │          │
+       │         • Record what│  │ |          │
+       │         • was        │  │ |          │
+       │         established  │  │ |          │
+       │         • Mark       │  │ |          │
+       │         answered     │  │ |          │
+       │         questions    │  │ |          │
+       │         • Record     │  │ |          │
+       │         contradictions│   |          │
+       │         • Identify   │    │          │
+       │         remaining    │    │          │
+       │         open required│    │          │
+       │         questions    │    │          │
+       │         • Choose     │    │          │
+       │         next action  │    │          │
+       └──────►└───────────────┘   │          │
+                          │        │          │
+                          ▼        ▼          │
+                   ┌───────────────┐          │
+                   │   VERIFY      │          │
+                   │               │          │
+                   • Match verification       │
+                   • effort to:      
+                   • claim importance  
+                   • uncertainty   
+                   • source quality
+                   • contradiction
+                   • freshness      
+                   • requested depth
+                   • consequence 
+                   of being wrong
+                   • authoritative sources
+                   • independent confirmation
+                   • original documents
+                   • primary research
+                   • version/date checks
+                   • calculation checks
+                   • reproducing a result
+                   • direct inspection of relevant material
+                   Do not manufacture certainty by accumulating redundant sources.
+                   Do not claim something was verified unless the verification actually occurred.
+                   ◄──────────────────────┘
+```
+
+**Stopping Check (after each meaningful retrieval):**
+> **"Do I now have enough reliable evidence to answer the user's actual question without guessing?"**
+
+- **YES** → STOP. Provide answer with important evidence, relevant assumptions, meaningful uncertainty, citations when appropriate.
+- **NO** → Identify exact unresolved required claim → determine what evidence is missing → retrieve only that information → reassess.
+
+---
+
+*Loop flow: UNDERSTAND → CLASSIFY → PLAN → RETRIEVE → EVALUATE → UPDATE → VERIFY → STOP*
+*Never research "the topic" — research the unanswered questions required to answer the user's question.*
+*Accuracy beats minimality; unnecessary work is the thing to minimize.*

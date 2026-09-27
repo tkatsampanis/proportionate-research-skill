@@ -1,0 +1,80 @@
+# Proportionate Research — Quick Reference Index
+
+## Core Skill File
+- `SKILL.md` (24.1K) — Full 26-section proportionate research methodology
+
+## Supporting Documents
+- `cheat-sheet.txt` (5.3K) — One-page quick-start reference
+- `scenarios-and-condensed.txt` (9.1K) — Three research scenarios + 15-section condensed mode
+- `README.md` — This overview file
+
+## Skill Structure Summary
+
+### Section Groups
+
+**Sections 1–5: Foundation**
+1. Purpose & Operating Loop
+2. Understand the Request
+3. Classify Required Information (with Coverage dimension)
+4. Determine Research Depth (Lightweight/Analytical/Comprehensive)
+5. Allocate Proportionate Research Budget
+
+**Sections 6–8: Evidence & Retrieval**
+6. Source & Evidence Quality (Primary/Secondary/Discovery)
+7. Evaluate Evidence Before Treating as Established
+8. Escalate Gradually (Level 0–4)
+
+**Sections 9–11: Web Research & Saturation**
+9. Evidence States
+10. Web Research (with Search Saturation section)
+11. Temporal and Version Awareness
+
+**Sections 12–14: Contradictions & Stopping**
+12. Contradictions
+13. Negative Claims and Absence
+14. Documents, Video, and Audio
+
+**Sections 15–17: Planning & Cost**
+15. Planning and Persistent Research State
+16. Cost Before Expensive Operations
+17. Computational Work
+
+**Sections 18–21: Advanced Concepts**
+18. Comprehensive and Exhaustive Research
+19. Avoid Research Loops
+20. Ask the User When Necessary
+21. Decision Sensitivity
+
+**Sections 22–26: Verification & Output**
+22. Verification (matching effort to claim importance)
+23. Stopping Rule (with Novelty evaluation)
+24. Accuracy Beats Minimality
+25. File and System Safety
+26. Output Discipline
+
+## Key Innovations in v3.0.0
+
+- **Coverage category** — New classification between Required/Contextual that tracks which evidence dimensions have been investigated and which remain uncovered
+- **Search Saturation** — Section 10 addition: track whether successive search rounds produce materially new evidence; 70–80% source overlap as heuristic signal (not automatic stop rule)
+- **Novelty evaluation** — Section 24: assess whether further research likely produces new required claims, new evidence, contradictory evidence, better source quality, or unexplored coverage
+- **Revised operating loop** — UNDERSTAND → CLASSIFY → PLAN → RETRIEVE → EVALUATE → UPDATE → VERIFY → STOP (added CLASSIFY and PLAN steps)
+
+## Who This Skill Is For
+
+- Researchers conducting document analysis, media retrieval, or technical investigation
+- AI assistants and agents performing information retrieval tasks
+- Knowledge workers who need to balance thoroughness with efficiency
+- Anyone who performs web research, literature reviews, or evidence gathering
+
+## Related Skills
+
+- `technical-verification` — Companion skill for STEM, mathematics, engineering, and scientific analysis verification
+- Planning with Files system — For persistent multi-step research state management
+
+## License
+
+MIT. Free to use, modify, and share. Attribution appreciated but not required.
+
+---
+
+*For the full detailed methodology, see SKILL.md. For quick reference, see cheat-sheet.txt. For worked examples, see scenarios-and-condensed.txt.*
